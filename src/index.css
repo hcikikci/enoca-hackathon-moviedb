@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Poppins:wght@400;500;600&family=Roboto:wght@500&display=swap');
+@import "react-alice-carousel/lib/alice-carousel.css";
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+
+    .font-outline {
+        text-shadow: 0.1px 0.1px 0 #0296E5, -0.1px -0.1px 0 #0296E5, 0.1px -0.19px 0 #0296E5,
+        -0.1px 0.1px 0 #0296E5, 0.1px 0.81px 0 #0296E5;
+    }
+
+}

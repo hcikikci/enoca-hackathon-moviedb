@@ -2,7 +2,7 @@ import React from 'react';
 
 function Searchbar() {
     return (
-        <div className="px-[24px] pt-[10px]">
+        <div className="pt-[10px]">
             <h2 className="text-white font-poppins font-[600] text-[18px] pb-[24px]">What do you want to watch?</h2>
             <div className="relative w-full">
                 <div className="absolute inset-y-0 right-0 flex items-center px-3 pointer-events-none">

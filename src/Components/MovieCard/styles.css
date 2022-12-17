@@ -38,15 +38,4 @@
 
 }
 
-index css e ekleyin alttakini :
 
-
-
-@layer base {
-
-    .font-outline {
-        text-shadow: 0.1px 0.1px 0 #0296E5, -0.1px -0.1px 0 #0296E5, 0.1px -0.19px 0 #0296E5,
-        -0.1px 0.1px 0 #0296E5, 0.1px 0.81px 0 #0296E5;
-    }
-
-}
