@@ -1,19 +1,26 @@
 import React, {useEffect} from 'react';
-import Items from "./Components/Pages/Items";
+import Search from "./Components/Pages/Search";
 import {useAppDispatch} from "./app/hooks";
-import {getItems} from "./features/items/getItems";
+import {getPopular} from "./features/items/getPopular";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import {Link, useLocation, useNavigate, useRoutes} from "react-router-dom";
 import Home from "./Components/Pages/Home";
 import Navbar from "./Components/Navbar";
+import Details from "./Components/Pages/Details";
+import {getNowPlaying} from "./features/items/getNowPlaying";
+import {getUpcoming} from "./features/items/getUpcoming";
+import {getTopRated} from "./features/items/getTopRated";
 
 function App() {
 
     const dispatch = useAppDispatch()
 
     useEffect(()=>{
-        dispatch(getItems())
+        dispatch(getPopular())
+        dispatch(getNowPlaying())
+        dispatch(getUpcoming())
+        dispatch(getTopRated())
     },[])
 
     let routes = useRoutes([
@@ -22,15 +29,22 @@ function App() {
             element: <Home />,
         },
         {
-            path: "/items",
-            element: <Items />,
+            path: "/search",
+            element: <Search />,
         },
+        {
+            path: "/details/:id",
+            element: <Details/>
+        }
     ])
   return (
-    <div className="App">
-        <div>{routes}</div>
+    <div className="bg-dark-blue w-full pb-36">
+        <div className="">{routes}</div>
+
+
         <Navbar/>
         <ToastContainer />
+
     </div>
   );
 }

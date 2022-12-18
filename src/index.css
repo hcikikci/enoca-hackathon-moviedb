@@ -5,6 +5,9 @@
 @tailwind components;
 @tailwind utilities;
 
+html{
+    background: #242A32;
+}
 @layer base {
 
     .font-outline {

@@ -11,8 +11,10 @@ import "./styles.css";
 // import required modules
 import { Pagination } from "swiper";
 import BigMovieCard from "./BigMovieCard";
+import {useAppSelector} from "../../app/hooks";
 
 function PopularMovies() {
+    const popular_movies = useAppSelector(state => state.itemReducer.movies?.popular)
     return (
         <>
             <Swiper
@@ -27,12 +29,11 @@ function PopularMovies() {
                 modules={[Pagination]}
                 className="mySwiper"
             >
-                <SwiperSlide><BigMovieCard/></SwiperSlide>
-                <SwiperSlide><BigMovieCard/></SwiperSlide>
-                <SwiperSlide><BigMovieCard/></SwiperSlide>
-                <SwiperSlide><BigMovieCard/></SwiperSlide>
-                <SwiperSlide><BigMovieCard/></SwiperSlide>
-                <SwiperSlide><BigMovieCard/></SwiperSlide>
+                {popular_movies?.length > 0 ? popular_movies.map((movie : any, index : any)=> (
+
+                    <SwiperSlide><BigMovieCard poster_path={movie?.poster_path} index={index+1} id={movie?.id}/></SwiperSlide>
+                )) : null}
+
 
             </Swiper>
         </>

@@ -1,0 +1,49 @@
+.react-tabs__tab--selected{
+    background: none!important;
+    border:0;
+
+
+}
+.react-tabs__tab--selected span{
+    padding-bottom: 10px;
+    border-bottom: 4px solid #3A3F47!important;
+
+}
+.react-tabs__tab{
+    border:none;
+    color:white;
+    padding-bottom: 20px;
+}
+
+.react-tabs__tab-list{
+    border:none;
+}
+
+.react-tabs__tab:focus:after{
+    background: none;
+}
+
+.react-tabs__tab-list {
+    display: block;
+    overflow-y: hidden;
+    overflow-x:scroll;
+    width: 100%;
+    white-space: nowrap;
+}
+
+.react-tabs__tab-list {
+    display: block;
+    overflow-y: hidden;
+    overflow-x:scroll;
+    width: 100%;
+    white-space: nowrap;
+}
+
+.hiddenscrollbar {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.hiddenscrollbar::-webkit-scrollbar {
+    display: none;
+}

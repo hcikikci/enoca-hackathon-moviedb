@@ -1,5 +1,5 @@
 import { configureStore, ThunkAction, Action } from '@reduxjs/toolkit';
-import {itemReducer} from "../features/items/itemSlice";
+import {itemReducer} from "../features/items/movieSlice";
 
 export const store = configureStore({
   reducer: {
