@@ -1,43 +1,103 @@
-# Getting Started with Create React App
+# 🏆 Enoca Hackathon Birincisi - Film Keşif Uygulaması
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) TS template.
+Bu proje, Karabük Üniversitesi'nde düzenlenen Enoca Hackathon yarışmasında frontend kategorisinde birincilik ödülü kazanmıştır. [Yarışma Sonucu ve Ödül Töreni](https://www.instagram.com/p/CmjdXIYMV6e/)
 
-## Available Scripts
+## 🎖️ Yarışma Detayları
 
-In the project directory, you can run:
+- **Organizatör:** Enoca
+- **Mekan:** Karabük Üniversitesi
+- **Kategori:** Frontend Development
+- **Sonuç:** Birincilik Ödülü 🥇
 
-### `npm start`
+## 🎯 Proje Hakkında
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Modern bir film keşif ve arama platformu olan bu uygulama, kullanıcılara zengin bir film veritabanı deneyimi sunmaktadır. TMDB (The Movie Database) API'si ile entegre çalışarak, kullanıcılara geniş bir film kataloğu sunar.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### 🌟 Arayüz ve Tasarım
 
-### `npm test`
+- **Modern Tasarım:** Koyu tema üzerine kurulu, göz yormayan modern bir arayüz
+- **Özel Film Kartları:** Her film için özel tasarlanmış, detaylı bilgi kartları
+- **Kaydırmalı Listeler:** Vizyondaki ve popüler filmler için yatay kaydırmalı listeler
+- **Detay Sayfaları:** Film posteri, açıklama, oyuncu kadrosu ve değerlendirmeleri içeren kapsamlı detay sayfaları
+- **Mobil Uyumlu:** Tüm ekran boyutlarına uyumlu responsive tasarım
+- **Kullanıcı Dostu:** Kolay gezinme ve sezgisel kullanıcı deneyimi
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 🌟 Özellikler
 
-### `npm run build`
+- Film arama ve filtreleme
+- Detaylı film bilgileri (süre, yayın tarihi, tür)
+- Film değerlendirmeleri ve yorumları
+- Oyuncu kadrosu bilgileri
+- Vizyondaki filmler
+- Popüler filmler
+- En çok oy alan filmler
+- Yakında gelecek filmler
+- Modern ve kullanıcı dostu arayüz
+- Responsive tasarım
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 🛠️ Kullanılan Teknolojiler
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Frontend Framework:** React 18
+- **Programlama Dili:** TypeScript
+- **State Yönetimi:** Redux Toolkit
+- **Stil:** Tailwind CSS
+- **Routing:** React Router DOM
+- **UI Bileşenleri:**
+  - React Alice Carousel
+  - Swiper
+  - React Tabs
+  - React Toastify
+- **HTTP İstemcisi:** Axios
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🚀 Kurulum
 
-### `npm run eject`
+1. Projeyi klonlayın
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```bash
+git clone [repository-url]
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. Bağımlılıkları yükleyin
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```bash
+npm install
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+3. Geliştirme sunucusunu başlatın
+
+```bash
+npm start
+```
+
+## 📦 Kullanılabilir Komutlar
+
+- `npm start` - Geliştirme modunda uygulamayı çalıştırır
+- `npm run build` - Uygulamayı production için derler
+- `npm test` - Test çalıştırıcıyı başlatır
+- `npm run dev` - Geliştirme sunucusunu başlatır
+
+## 📁 Proje Yapısı
+
+```
+src/
+├── app/          # Uygulama kurulumu ve store konfigürasyonu
+├── Components/   # Yeniden kullanılabilir UI bileşenleri
+│   ├── Pages/   # Sayfa bileşenleri
+│   └── Home/    # Ana sayfa bileşenleri
+└── features/    # Redux özellikleri ve API entegrasyonları
+    └── items/   # Film verisi ile ilgili Redux işlemleri
+```
+
+## 🏆 Başarılar
+
+- Enoca Hackathon 2023 Frontend Kategorisi Birincisi
+- Modern web teknolojilerinin etkin kullanımı
+- Kullanıcı deneyimi odaklı tasarım
+- Performans optimizasyonu
+
+## 🙏 Teşekkür
+
+Bu projenin geliştirilmesinde destek olan Enoca ekibine ve Hackathon organizasyonuna teşekkürler.
 
 ## Learn More
 
