@@ -1,103 +1,103 @@
-# 🏆 Enoca Hackathon Birincisi - Film Keşif Uygulaması
+# 🏆 Enoca Hackathon Winner - Movie Discovery Application
 
-Bu proje, Karabük Üniversitesi'nde düzenlenen Enoca Hackathon yarışmasında frontend kategorisinde birincilik ödülü kazanmıştır. [Yarışma Sonucu ve Ödül Töreni](https://www.instagram.com/p/CmjdXIYMV6e/)
+This project won first place in the frontend category at the Enoca Hackathon competition held at Karabük University. [Competition Results and Award Ceremony](https://www.instagram.com/p/CmjdXIYMV6e/)
 
-## 🎖️ Yarışma Detayları
+## 🎖️ Competition Details
 
-- **Organizatör:** Enoca
-- **Mekan:** Karabük Üniversitesi
-- **Kategori:** Frontend Development
-- **Sonuç:** Birincilik Ödülü 🥇
+- **Organizer:** Enoca
+- **Venue:** Karabük University
+- **Category:** Frontend Development
+- **Result:** First Place 🥇
 
-## 🎯 Proje Hakkında
+## 🎯 About the Project
 
-Modern bir film keşif ve arama platformu olan bu uygulama, kullanıcılara zengin bir film veritabanı deneyimi sunmaktadır. TMDB (The Movie Database) API'si ile entegre çalışarak, kullanıcılara geniş bir film kataloğu sunar.
+This modern movie discovery and search platform provides users with a rich movie database experience. Working in integration with the TMDB (The Movie Database) API, it offers users an extensive movie catalog.
 
-### 🌟 Arayüz ve Tasarım
+### 🌟 Interface and Design
 
-- **Modern Tasarım:** Koyu tema üzerine kurulu, göz yormayan modern bir arayüz
-- **Özel Film Kartları:** Her film için özel tasarlanmış, detaylı bilgi kartları
-- **Kaydırmalı Listeler:** Vizyondaki ve popüler filmler için yatay kaydırmalı listeler
-- **Detay Sayfaları:** Film posteri, açıklama, oyuncu kadrosu ve değerlendirmeleri içeren kapsamlı detay sayfaları
-- **Mobil Uyumlu:** Tüm ekran boyutlarına uyumlu responsive tasarım
-- **Kullanıcı Dostu:** Kolay gezinme ve sezgisel kullanıcı deneyimi
+- **Modern Design:** A modern interface built on a dark theme that doesn't strain the eyes
+- **Custom Movie Cards:** Detailed information cards specially designed for each movie
+- **Scrollable Lists:** Horizontal scrolling lists for movies in theaters and popular movies
+- **Detail Pages:** Comprehensive detail pages containing movie posters, descriptions, cast, and reviews
+- **Mobile Responsive:** Responsive design compatible with all screen sizes
+- **User-Friendly:** Easy navigation and intuitive user experience
 
-### 🌟 Özellikler
+### 🌟 Features
 
-- Film arama ve filtreleme
-- Detaylı film bilgileri (süre, yayın tarihi, tür)
-- Film değerlendirmeleri ve yorumları
-- Oyuncu kadrosu bilgileri
-- Vizyondaki filmler
-- Popüler filmler
-- En çok oy alan filmler
-- Yakında gelecek filmler
-- Modern ve kullanıcı dostu arayüz
-- Responsive tasarım
+- Movie search and filtering
+- Detailed movie information (duration, release date, genre)
+- Movie ratings and reviews
+- Cast information
+- Movies in theaters
+- Popular movies
+- Top-rated movies
+- Upcoming movies
+- Modern and user-friendly interface
+- Responsive design
 
-### 🛠️ Kullanılan Teknolojiler
+### 🛠️ Technologies Used
 
 - **Frontend Framework:** React 18
-- **Programlama Dili:** TypeScript
-- **State Yönetimi:** Redux Toolkit
-- **Stil:** Tailwind CSS
+- **Programming Language:** TypeScript
+- **State Management:** Redux Toolkit
+- **Styling:** Tailwind CSS
 - **Routing:** React Router DOM
-- **UI Bileşenleri:**
+- **UI Components:**
   - React Alice Carousel
   - Swiper
   - React Tabs
   - React Toastify
-- **HTTP İstemcisi:** Axios
+- **HTTP Client:** Axios
 
-## 🚀 Kurulum
+## 🚀 Installation
 
-1. Projeyi klonlayın
+1. Clone the project
 
 ```bash
 git clone [repository-url]
 ```
 
-2. Bağımlılıkları yükleyin
+2. Install dependencies
 
 ```bash
 npm install
 ```
 
-3. Geliştirme sunucusunu başlatın
+3. Start the development server
 
 ```bash
 npm start
 ```
 
-## 📦 Kullanılabilir Komutlar
+## 📦 Available Commands
 
-- `npm start` - Geliştirme modunda uygulamayı çalıştırır
-- `npm run build` - Uygulamayı production için derler
-- `npm test` - Test çalıştırıcıyı başlatır
-- `npm run dev` - Geliştirme sunucusunu başlatır
+- `npm start` - Runs the application in development mode
+- `npm run build` - Builds the application for production
+- `npm test` - Launches the test runner
+- `npm run dev` - Starts the development server
 
-## 📁 Proje Yapısı
+## 📁 Project Structure
 
 ```
 src/
-├── app/          # Uygulama kurulumu ve store konfigürasyonu
-├── Components/   # Yeniden kullanılabilir UI bileşenleri
-│   ├── Pages/   # Sayfa bileşenleri
-│   └── Home/    # Ana sayfa bileşenleri
-└── features/    # Redux özellikleri ve API entegrasyonları
-    └── items/   # Film verisi ile ilgili Redux işlemleri
+├── app/          # Application setup and store configuration
+├── Components/   # Reusable UI components
+│   ├── Pages/   # Page components
+│   └── Home/    # Home page components
+└── features/    # Redux features and API integrations
+    └── items/   # Movie data related Redux operations
 ```
 
-## 🏆 Başarılar
+## 🏆 Achievements
 
-- Enoca Hackathon 2023 Frontend Kategorisi Birincisi
-- Modern web teknolojilerinin etkin kullanımı
-- Kullanıcı deneyimi odaklı tasarım
-- Performans optimizasyonu
+- Enoca Hackathon 2023 Frontend Category Winner
+- Effective use of modern web technologies
+- User experience-focused design
+- Performance optimization
 
-## 🙏 Teşekkür
+## 🙏 Acknowledgments
 
-Bu projenin geliştirilmesinde destek olan Enoca ekibine ve Hackathon organizasyonuna teşekkürler.
+Thanks to the Enoca team and Hackathon organization for their support in developing this project.
 
 ## Learn More
 
